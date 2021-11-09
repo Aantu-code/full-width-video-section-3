@@ -1,0 +1,65 @@
+.video-area-bg {
+  background-image: url("../110339.jpg");
+  background-color: #ddd;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 20px #00000087;
+}
+span {
+  display: none;
+}
+.cheak-icon li::before {
+  font-family: fontAwesome;
+  content: "";
+  margin-right: 15px;
+  color: #2ecc71;
+  font-size: 13px;
+}
+.cheak-icon li {
+  list-style: none;
+  margin-bottom: 10px;
+  color: #000000ad;
+  font-size: 0.9rem;
+}
+.video-area-bg {
+  position: absolute;
+  left: 0;
+  top: 90px;
+  height: 70vh;
+  width: 45%;
+  border-radius: 10px;
+}
+.mfp-ifram.video-play-btn {
+  position: absolute;
+  right: -30px;
+  background: #2ecc71;
+  text-align: center;
+  display: inline-block;
+  font-size: 40px;
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  color: #fff;
+  top: 43%;
+}
+body {
+  color: #4e4d4e9e;
+}
+h2 {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.cheak-icon {
+  padding: 0;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+.box {
+  position: absolute;
+  top: 190px;
+  left: 53%;
+}
